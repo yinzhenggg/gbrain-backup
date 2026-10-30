@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · GBrain Backup</title>
+<link rel="stylesheet" href="style.css">
+<main>
+  <p class="eyebrow">GBrain Backup</p>
+  <h1>Privacy policy</h1>
+  <p>Effective date: 30 October 2026.</p>
+  <p>GBrain Backup is a personal backup utility operated by the owner of the <a href="https://github.com/yinzhenggg">yinzhenggg GitHub account</a>.</p>
+  <h2>Google Drive access and use</h2>
+  <p>With the owner's OAuth authorization, rclone accesses permitted Google Drive file metadata and contents to upload encrypted recovery backups and checksum receipts, list and download files for verification, and delete expired backups under the owner's retention policy. Access is limited by the permissions granted to the OAuth app.</p>
+  <h2>Storage and protection</h2>
+  <p>Backup packages are encrypted on the operator's server before upload to Google Drive. Filenames, file metadata and checksum receipts are not encrypted by that package encryption. Local backup artifacts and verification records may also be retained on the operator's devices and server. OAuth credentials and tokens are kept in private configuration, not on this public website.</p>
+  <h2>Sharing and AI use</h2>
+  <p>The backup utility does not sell Google user data, use it for advertising, or send backup contents to AI models for training. Google processes files stored in Drive, and the operator's hosting provider supplies the server infrastructure. Operational alerts may be delivered through Telegram; the utility does not attach backup contents or OAuth credentials to those alerts.</p>
+  <h2>Retention and control</h2>
+  <p>The remote retention policy protects backups from the newest 13 verified calendar weeks. Multiple backups within those weeks may be retained. Older remote backups are eligible for removal by the retention script. Local retention differs and may require manual cleanup. The owner can revoke the app's access in <a href="https://myaccount.google.com/connections">Google Account connections</a>. Revoking access stops future authorized requests but does not delete existing backups; the owner can delete those separately.</p>
+  <h2>This public website</h2>
+  <p>These static pages contain no application analytics, advertising scripts or login forms. GitHub Pages hosts the site and may process request information under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
+  <h2>Contact and updates</h2>
+  <p>For general questions, contact the operator through the <a href="https://github.com/yinzhenggg/gbrain-backup/issues">website repository's issues</a>. Do not submit secrets, personal backup data or other private information there. Material changes to this utility's data practices will be reflected on this page with an updated effective date.</p>
+  <nav aria-label="Information"><a href="index.html">Back to homepage</a></nav>
+</main>
+</html>
